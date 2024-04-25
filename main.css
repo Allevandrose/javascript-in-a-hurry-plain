@@ -36,6 +36,40 @@ ol,
 ul {
   list-style: none;
 }
+
+.button1{
+  width: 80px;
+  height: 70px;
+  background-image:url(assets/gallery/image1.jpg);
+  background-size: cover;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+.button1:hover{
+  border: 1.2px solid orangered;
+}
+.button2{
+  width: 80px;
+  height: 70px;
+  background-image:url(assets/gallery/image2.jpg);
+  background-size: cover;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+.button2:hover{
+  border: 1.2px solid greenyellow;
+}
+.button3{
+  width: 80px;
+  height: 70px;
+  background-image:url(assets/gallery/image3.jpg);
+  background-size: cover;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+.button3:hover{
+  border: 1.2px solid rgb(23, 193, 215);
+}
 img {
   max-width: 100%;
   height: auto;
@@ -55,6 +89,32 @@ a {
   margin: 0 auto;
   padding: 0 20px;
 }
+.card{
+  margin: 20px;
+  display: inline-block;
+  color: white;
+  border-radius: 15px;
+  width: 30%;
+}
+ .cart{
+  background: #2d2d2d;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding:10px 15px;
+  margin-top: 10px;
+  color: white;
+} 
+.border-top{
+  color: #b4b4b4;
+}
+#cardContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
@@ -358,6 +418,12 @@ main .products-section .products-area {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 35px;
   column-gap: 51px;
+}
+.border-top{
+  font-family: 'Consolas', monospace;
+}
+.info-container{
+  margin: 5px 15px;
 }
 @media (max-width: 767px) {
   main .products-section .products-area {
